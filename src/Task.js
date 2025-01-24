@@ -40,9 +40,6 @@ const Task = ({ id, name, completed, color, index }) => {
           <button onClick={() => editTask(id)}>
             <FiEdit />
           </button>
-          {/* <button className="btn-colors" onClick={(e) => showColors(e, id)}>
-            <MdOutlineColorLens className="preventClick" />
-          </button> */}
         </li>
       )}
     </Draggable>
